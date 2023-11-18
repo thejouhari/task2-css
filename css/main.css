@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+
+.logo img{
+    width:150px;
+    margin-top:7px;
+}
+
+.navbar{
+    background-color: black;
+    width:100%;
+}
+
+.navbar .navbarlist ul li a{
+    color:white;
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbarlist ul{
+    display: flex;
+    margin-top:7px;
+
+}
+.container{
+    width:80%;
+    margin:auto;
+    margin-top: 15px;
+}
+
+.navbar .container{
+    width:80%;
+    background-color:black;
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+}
+
+.portfolio{
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    margin-top:5px;
+}
+
+.portfolio-item{
+    width:33.33%;
+}
+.portfolio-item img{
+    width:97%;
+}
